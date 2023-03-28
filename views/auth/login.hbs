@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+{{> Head title="Inicio"}}
+
+<body class="bg-gray-100">
+    <div class="flex h-screen bg-gradient-to-br from-gold-300 to-silver-300">
+        <div class="m-auto w-96 bg-white rounded-xl shadow-md p-8">
+            <h1 class="text-2xl font-bold mb-4">Iniciar sesión</h1>
+            <form>
+                <div class="mb-4">
+                    <label class="block text-gray-700 font-bold mb-2" for="email">
+                        Correo electrónico
+                    </label>
+                    <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="email" type="email" placeholder="ejemplo@correo.com" required>
+                </div>
+                <div class="mb-6">
+                    <label class="block text-gray-700 font-bold mb-2" for="password">
+                        Contraseña
+                    </label>
+                    <input
+                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        id="password" type="password" placeholder="********" required>
+                </div>
+                <div class="flex items-center justify-between">
+                    <button
+                        class="bg-gold-500 hover:bg-gold-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                        type="submit">
+                        Ingresar
+                    </button>
+                    <a class="inline-block align-baseline font-bold text-sm text-gold-500 hover:text-gold-600" href="#">
+                        ¿Olvidaste tu contraseña?
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>

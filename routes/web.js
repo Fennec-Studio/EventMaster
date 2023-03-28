@@ -8,6 +8,16 @@ router.get('/', async (req, res) => {
         res.render('index')
     } catch (error) {
         console.log(error);
+        res.render('index')
+    }
+})
+
+router.get('/login', async (req, res) => {
+    try {
+        res.render('auth/login')
+    } catch (error) {
+        console.log(error);
+        res.render('auth/login')
     }
 })
 

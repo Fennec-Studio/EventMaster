@@ -14,7 +14,6 @@ app.use(express.json({ limit: '100mb' }))
 app.use(sesion)
 require('./extras/helpers')
 
-//STATIC DIRECTORIES
 app.use(express.static(path.join(__dirname, './assets')))
 app.use(require('./routes/index'))
 

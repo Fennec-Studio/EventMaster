@@ -1,8 +1,7 @@
 const express = require('express')
 const router = express.Router()
-const db = require('../../database/controller')
+const db = require('../../database/models/User')
 router.use(express.json());
-
 
 router.post('/api/users/auth/validate', async (req, res) => {
     try {

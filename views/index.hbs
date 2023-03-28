@@ -1,7 +1,43 @@
 <!DOCTYPE html>
 <html lang="es">
-{{> Head }}
-<body>
-    <h1>Prueba</h1>
+{{> Head title="Inicio"}}
+<body class="bg-gray-100">
+    <nav class="flex items-center justify-between flex-wrap bg-gray-900 py-6 px-8">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <svg class="fill-current h-8 w-8 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path
+                    d="M10.677 3.301c.205-.659.953-.927 1.485-.512l5.078 3.74c.539.397.542 1.184.008 1.586L8.865 13.91c-.535.397-1.397.397-1.932 0L2.352 8.115c-.534-.402-.531-1.19.008-1.586l5.076-3.74c.533-.415 1.281-.146 1.486.512zM10 6.178l-4.95 3.64L10 13.457l4.95-3.64L10 6.178z" />
+            </svg>
+            <span class="font-semibold text-xl tracking-tight">Mi Empresa</span>
+        </div>
+        <div class="block lg:hidden">
+            <button
+                class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white">
+                <svg class="h-3 w-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+            <div class="text-sm lg:flex-grow">
+                <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
+                    Inicio
+                </a>
+                <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4">
+                    Servicios
+                </a>
+                <a href="#" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300">
+                    Contacto
+                </a>
+            </div>
+            <div>
+                <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white bg-blue-500 border-blue-500 hover:border-transparent hover:text-blue-500 hover:bg-white mt-4 lg:mt-0">Iniciar Sesión</a>
+            </div>
+        </div>
+    </nav>
+
+
 </body>
+
 </html>

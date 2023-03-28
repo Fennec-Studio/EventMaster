@@ -1,5 +1,5 @@
 {
-  "name": "myevent",
+  "name": "eventmaster",
   "version": "1.0.0",
   "description": "Platform that allows users to manage their social events",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fennec-Studio/MiEvento.git"
+    "url": "git+https://github.com/Fennec-Studio/EventMaster.git"
   },
   "author": "Fennec Studio",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Fennec-Studio/MiEvento/issues"
+    "url": "https://github.com/Fennec-Studio/EventMaster/issues"
   },
-  "homepage": "https://github.com/Fennec-Studio/MiEvento#readme",
+  "homepage": "https://github.com/Fennec-Studio/EventMaster#readme",
   "dependencies": {
     "cryptr": "^6.2.0",
     "express": "^4.18.2",
